@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Annisa Haryoko — Application Development & Web Developer</title>
+  <meta name="description" content="Portfolio of Annisa Haryoko: Application Development at an IBM Silver Partner, web developer and UI/UX designer based in Bogor, Indonesia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Instrument+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+
+  <!-- ============ SIDEBAR (stays in view while you scroll) ============ -->
+  <aside class="side">
+    <div class="side-top">
+      <a class="logo" href="#intro" aria-label="Back to top">{ Annisa Haryoko }<span>.</span></a>
+      <p class="role">Application Development<br>Junior Web Developer<br>UI/UX Designer</p>
+
+      <nav class="menu" aria-label="Main">
+        <a href="#intro" data-spy="intro"><span class="mono">01</span> Intro</a>
+        <a href="#experience" data-spy="experience"><span class="mono">02</span> Experience</a>
+        <a href="#work" data-spy="work"><span class="mono">03</span> Work</a>
+        <a href="#skills" data-spy="skills"><span class="mono">04</span> Skills</a>
+        <a href="#credentials" data-spy="credentials"><span class="mono">05</span> Credentials</a>
+        <a href="#contact" data-spy="contact"><span class="mono">06</span> Contact</a>
+      </nav>
+    </div>
+
+    <div class="side-bottom">
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/annisaharyoko20/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://github.com/annishryk" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://instagram.com/annis.hryk" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a></li>
+      </ul>
+      <div class="tools">
+        <span class="mono muted" id="clock" aria-label="Local time">--:-- WIB</span>
+        <button class="theme-btn" id="theme" type="button" aria-label="Toggle light and dark theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ CONTENT ============ -->
+  <main class="main">
+
+    <!-- INTRO -->
+    <section class="block intro" id="intro">
+      <p class="label mono">{ Hello }</p>
+      <h1>Building web apps and enterprise systems that feel <span class="type" id="type">simple</span><span class="caret" aria-hidden="true"></span></h1>
+      <p class="lead">I'm Annisa, an Informatics Engineering graduate (GPA 3.61) working in Application Development at PT Anagile Kharisma Utama, an IBM Silver Partner. I started by building government web apps with Laravel and now work where software meets enterprise systems: IBM Maximo/MAS, DB2 and ERP integration.</p>
+
+      <div class="actions">
+        <a class="btn primary" href="#experience">See my experience <span aria-hidden="true">↓</span></a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+
+      <dl class="facts">
+        <div><dt class="mono">Now</dt><dd><span class="dot"></span> Application Development</dd></div>
+        <div><dt class="mono">Based in</dt><dd>Bogor, Indonesia</dd></div>
+        <div><dt class="mono">Certified</dt><dd>BNSP · IBM Maximo</dd></div>
+      </dl>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="block" id="experience">
+      <header class="head"><p class="label mono">{ 02 — Experience }</p><h2>Where I've worked</h2></header>
+
+      <ol class="timeline">
+        <li>
+          <span class="when mono">Apr 2026 — Present</span>
+          <h3>Application Development</h3>
+          <p class="org">PT Anagile Kharisma Utama <span class="muted">· IBM Silver Partner</span></p>
+          <p class="place muted">Bogor, West Java</p>
+          <ul class="points">
+            <li>Manage IBM Maximo/MAS deployments for NPCT1 (PT New Priok Container Terminal One), including DB2 schema operations and Oracle GFS integration.</li>
+            <li>Completed 6 IBM certifications covering Maximo Manage Infrastructure, Planning &amp; Scheduling, Functional Administration and RHOCP Deployment.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="when mono">Oct 2025 — Apr 2026</span>
+          <h3>Junior Programmer</h3>
+          <p class="org">PT. Smart Kreatif Digital</p>
+          <p class="place muted">Bogor Regency, West Java</p>
+          <ul class="points">
+            <li>Built the SAKPU WhatsApp automation system with Laravel, n8n and the WAHA API for registration and simulation workflows.</li>
+            <li>Maintained the official kppu.go.id portal, focusing on performance, scalability and accessibility standards.</li>
+            <li>Integrated an AI chatbot (DeepSeek via OpenRouter) into web and WhatsApp systems.</li>
+            <li>Implemented dynamic Indonesian/English content and a CMS for a national government portal.</li>
+            <li>Designed the backend API architecture with MySQL.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="when mono">Mar — Jul 2023</span>
+          <h3>Web Developer</h3>
+          <p class="org">DINKUKMDAGIN Kota Bogor</p>
+          <p class="place muted">Bogor, West Java · Internship</p>
+          <ul class="points">
+            <li>Designed the database for the cooperative service.</li>
+            <li>Built the Bogor City Cooperative Service Information System website and its CMS.</li>
+            <li>Stack: PHP, Laravel and MySQL.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- WORK -->
+    <section class="block" id="work">
+      <header class="head"><p class="label mono">{ 03 — Work }</p><h2>Selected projects</h2></header>
+
+      <div class="cards">
+        <article class="card">
+          <div class="cover a4" aria-hidden="true"></div>
+          <div class="card-body">
+            <div class="card-top"><h3>IBM Maximo/MAS — NPCT1</h3><span class="mono muted">2026</span></div>
+            <p>Deployment management of IBM Maximo Application Suite for PT New Priok Container Terminal One, including DB2 schema operations and Oracle GFS integration.</p>
+            <ul class="chips"><li>Maximo</li><li>MAS</li><li>DB2</li><li>Oracle GFS</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cover a1" aria-hidden="true"></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Web Sistem KPPU RI</h3><span class="mono muted">2025–26</span></div>
+            <p>Developing the official kppu.go.id portal: performance, scalability and accessibility, plus an AI chatbot and dynamic Indonesian/English content with a CMS.</p>
+            <ul class="chips"><li>Laravel</li><li>MySQL</li><li>AI Chatbot</li><li>Multilingual</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cover a2" aria-hidden="true"></div>
+          <div class="card-body">
+            <div class="card-top"><h3>SAKPU WhatsApp Automation</h3><span class="mono muted">2025–26</span></div>
+            <p>A WhatsApp automation system for registration and simulation workflows, built on Laravel, n8n and the WAHA API.</p>
+            <ul class="chips"><li>Laravel</li><li>n8n</li><li>WAHA</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cover a3" aria-hidden="true"></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Learning-Style Expert System</h3><span class="mono muted">2025</span></div>
+            <p>An expert system that diagnoses students' learning styles (VARK) with the Certainty Factor method. 87% accuracy and rated "Very Feasible" (88.85%) in user testing.</p>
+            <ul class="chips"><li>Expert System</li><li>Certainty Factor</li><li>VARK</li></ul>
+            <a class="more" href="https://ejurnal.swadharma.ac.id/index.php/jeis/article/view/749" target="_blank" rel="noopener">Read the paper ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="block" id="skills">
+      <header class="head"><p class="label mono">{ 04 — Skills }</p><h2>What I work with</h2></header>
+
+      <div class="skill-grid">
+        <div class="skill"><h3 class="mono">Enterprise</h3><ul class="chips"><li>IBM Maximo / MAS</li><li>DB2</li><li>Oracle GFS integration</li><li>RHOS</li></ul></div>
+        <div class="skill"><h3 class="mono">Backend</h3><ul class="chips"><li>PHP</li><li>Laravel</li><li>Node.js</li><li>Express.js</li><li>Python</li></ul></div>
+        <div class="skill"><h3 class="mono">Frontend</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Next.js</li><li>TailwindCSS</li><li>Bootstrap</li></ul></div>
+        <div class="skill"><h3 class="mono">Database</h3><ul class="chips"><li>MySQL</li><li>DB2</li></ul></div>
+        <div class="skill"><h3 class="mono">Automation</h3><ul class="chips"><li>n8n</li><li>WAHA</li><li>OpenRouter</li></ul></div>
+        <div class="skill"><h3 class="mono">Tools</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Postman</li></ul></div>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section class="block" id="credentials">
+      <header class="head"><p class="label mono">{ 05 — Credentials }</p><h2>Education, certifications &amp; publications</h2></header>
+
+      <h3 class="sub mono">Education</h3>
+      <ul class="rows">
+        <li>
+          <span class="t">Universitas Binaniaga Indonesia</span><span class="r mono">2020 — 2024</span>
+          <span class="s">Bachelor's degree, Informatics Engineering · GPA 3.61 / 4.00. Thesis on a Certainty Factor expert system for diagnosing students' learning styles.</span>
+        </li>
+        <li>
+          <span class="t">SMK Wikrama Bogor</span><span class="r mono">2017 — 2020</span>
+          <span class="s">Computer and Network Engineering</span>
+        </li>
+      </ul>
+
+      <h3 class="sub mono">Certifications</h3>
+      <ul class="rows">
+        <li>
+          <span class="t">Junior Web Programmer</span><span class="r mono">Jun 2024</span>
+          <span class="s">BNSP (Badan Nasional Sertifikasi Profesi) · valid until Jun 2027</span>
+        </li>
+      </ul>
+
+      <details class="ibm">
+        <summary>
+          <span><span class="t">IBM · 6 certifications</span><br><span class="s">Maximo Application Suite &amp; Maximo Manage</span></span>
+          <span class="r mono">Jun 2026 <span class="tog"></span></span>
+        </summary>
+        <ul class="rows">
+          <li><a class="t" href="https://www.credly.com/badges/d9744540-16dc-4d35-843d-28601786def7" target="_blank" rel="noopener">MAS Manage Introduction <span aria-hidden="true">↗</span></a></li>
+          <li><a class="t" href="https://www.credly.com/badges/ee218474-8393-4ba5-b118-7d6bc54eb34c" target="_blank" rel="noopener">Maximo Application Suite and RHOCP Deployment Technical Essentials <span aria-hidden="true">↗</span></a></li>
+          <li><a class="t" href="https://www.credly.com/badges/fe6255d8-97ca-407c-bd24-2178efe80c70" target="_blank" rel="noopener">Maximo EAM to Maximo Manage Upgrade Technical Sales Advanced <span aria-hidden="true">↗</span></a></li>
+          <li><a class="t" href="https://www.credly.com/badges/7017f7e0-9dc1-4174-9841-d979379a86f5" target="_blank" rel="noopener">Maximo Manage Infrastructure Practitioner Advanced <span aria-hidden="true">↗</span></a></li>
+          <li><a class="t" href="https://www.credly.com/badges/aeda5c70-fc68-4123-a1d1-325f65ad32c8" target="_blank" rel="noopener">Maximo Manage: Functional Administration and User Management <span aria-hidden="true">↗</span></a></li>
+          <li><a class="t" href="https://www.credly.com/badges/b5c85b4a-188b-4011-b7b3-b8dc41396ab1" target="_blank" rel="noopener">Maximo Manage: Introduction to Planning and Scheduling <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </details>
+
+      <ul class="rows rows-tail">
+        <li><span class="t">CCNAv7: Introduction to Networks</span><span class="r mono">Nov 2023</span><span class="s">Cisco Networking Academy</span></li>
+        <li><span class="t">Cybersecurity Essentials</span><span class="r mono">Jun 2020</span><span class="s">Cisco Networking Academy</span></li>
+      </ul>
+
+      <h3 class="sub mono">Publications</h3>
+      <div class="pubs">
+        <article class="pub">
+          <h3>Penerapan Metode Certainty Factor Pada Sistem Pakar Untuk Diagnosa Gaya Belajar Siswa</h3>
+          <p class="venue mono muted">JEIS: Jurnal Elektro dan Informatika Swadharma · Jul 2025 · Sinta 5</p>
+          <p>A VARK-based expert system using Certainty Factor. 87% accuracy with balanced precision and recall (84%), rated "Very Feasible" (88.85%) via the PSSUQ questionnaire.</p>
+          <a class="more" href="https://ejurnal.swadharma.ac.id/index.php/jeis/article/view/749" target="_blank" rel="noopener">Read the paper ↗</a>
+        </article>
+        <article class="pub">
+          <h3>Edukasi Keamanan Digital Untuk Meningkatkan Kewaspadaan Masyarakat Terhadap Link Phising</h3>
+          <p class="venue mono muted">Alahyan Jurnal Pengabdian Masyarakat Multidisiplin, Vol. 1 No. 2 · Nov 2023</p>
+          <p>Community service on digital security awareness: teaching the public to recognize phishing links, validate links and browse safely to reduce data and financial loss.</p>
+          <a class="more" href="https://jurnal.alahyansukabumi.com/index.php/ecos-preneurs/article/view/60" target="_blank" rel="noopener">Read the paper ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="block" id="contact">
+      <header class="head"><p class="label mono">{ 06 — Contact }</p><h2>Let's work together</h2></header>
+
+      <div class="contact-card">
+        <p>Have a project, a role or just a question? My inbox is open.</p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:annisaharyoko20@gmail.com">annisaharyoko20@gmail.com <span aria-hidden="true">↗</span></a>
+          <button class="btn" id="copy" type="button" data-email="annisaharyoko20@gmail.com">Copy email</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mono muted">
+      <span>© 2026 Annisa Haryoko</span>
+      <a href="#intro">Back to top ↑</a>
+    </footer>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
