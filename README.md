@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Annisa Haryoko**: Application Development at an IBM Silver Partner, web developer and UI/UX designer based in Bogor, Indonesia.
 
-**Live site:** https://annishryk.github.io/portofolio-web/
+**Live site:** https://annishryk.github.io/portofolio-web-nisa/
 
 ## Overview
 
