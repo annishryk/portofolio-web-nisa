@@ -52,13 +52,13 @@ document.querySelectorAll("main section[id]").forEach((s) => spy.observe(s));
 
 // ---------- Scroll reveal ----------
 const io = new IntersectionObserver((entries) => entries.forEach((e) => {
-  if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+  if (!e.isIntersecting) return;
+  const el = e.target;
+  el.classList.add("in");
+  el.addEventListener("transitionend",
+    () => { el.style.transitionDelay = "0ms"; }, { once: true });
+  io.unobserve(el);
 }), { threshold: 0.1 });
-document.querySelectorAll(".card, .skill, .timeline > li, .facts > div, .pub, .contact-card").forEach((el, i) => {
-  el.classList.add("reveal");
-  el.style.transitionDelay = (i % 3) * 70 + "ms";
-  io.observe(el);
-});
 
 // ---------- Cursor spotlight on project cards ----------
 document.querySelectorAll(".card").forEach((card) => {
